@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" >
+    <title>Djangga Selecta Resort</title>
+  </head>
+  <body>
+    <!-- Navbar Menu -->
+    <nav>
+      <button class="openbtn" onclick="openSidebar()">&#9776;</button>
+      <div class="logo">
+        <img src="image/logo.png" alt="Logo" class="logo" >
+      </div>
+      <div class="navbar-link-container">
+        <ul class="navbar-link">
+          <li class="navbar-item"><a href="index.html">Home</a></li>
+          <li class="navbar-item"><a href="#about-us">About</a></li>
+          <li class="navbar-item"><a href="#room-suites">Room & Suites</a></li>
+          <li class="navbar-item"><a href="#facilities">Facilities</a></li>
+          <li class="navbar-item"><a href="#meeting-room">Meeting Room</a></li>
+        </ul>
+      </div>
+      <div class="book-now">
+        <a class="btn-primary" href="reservasi.html">Reservasi</a>
+      </div>
+    </nav>
+    <!-- End Navbar Menu -->
+
+    <!-- Header section -->
+    <div id="header-img" class="header-background">
+      <div class="header-container">
+        <div class="header-title">
+          <h1 class="header-title fadeInUp animated1">Djangga Selecta Resort</h1>
+          <p class="header-desc fadeInUp animated2">
+            Selamat Datang di Djangga selecta Resort. <br >
+            Perpaduan sempurna antara budaya, gaya hidup, dan keindahan Indonesia. <br >
+            Senyum hangat dan pelayanan sempurna Djangga selecta Resort selalu menemani Anda selama Anda tinggal bersama kami.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Header section -->
+
+    <!-- Sidebar section -->
+    <div id="sidebar" class="sidepanel">
+      <a class="closebtn" onclick="closeSidebar()">&times;</a>
+      <a href="#index.hmtl">Home</a>
+      <a href="#about-us">About</a>
+      <a href="#room-suites">Room & Suites</a>
+      <a href="#facilities">Facilities</a>
+      <a href="#meeting-room">Meeting Room</a>
+      <a href="reservasi.html">Reservasi</a>
+      <a href="evaluasi.html">Evaluasi</a>
+      <a href="about-us.html">About Us</a>
+    </div>
+    <!-- End sidebar section -->
+
+    <!-- about section -->
+    <div class="about-section" id="about-us">
+      <div class="about-container">
+        <div class="about-content">
+          <h1 class="about-title"><span>Relax</span> In Our Resort</h1>
+          <p class="about-desc">
+            Djangga Selecta Resort Batu sebuah resor yang terletak di “Little Swiss of Java”, Batu, Malang, Jawa Timur, resor ini terletak 1035 meter di atas permukaan laut, secara strategis bertengger di lereng bukit antara kabupaten Batu
+            dan kota Pujon. Dengan pemandangan taman yang rimbun dan perkebunan tropis, Djangga Selecta Resort Batu, menyambut para tamu dengan alam yang indah dan suasana keramahan Jawa Timur.
+          </p>
+        </div>
+        <img src="image/image2.png" alt="about-img" class="about-image" >
+      </div>
+    </div>
+    <!-- end About Section -->
+
+    <!-- Room & Suites Section -->
+    <div class="room-section" id="room-suites">
+      <div class="room-header">Room & <span>Suites</span></div>
+      <div class="room-container">
+        <div class="rc-left">
+          <img src="image/deluxe-room.jpg" alt="deluxe-room" class="room-img-cont" >
+          <div class="room-content-cont">
+            <div class="room-title">Deluxe room</div>
+            <div class="room-desc">
+              Kamar kontemporer dilengkapi dengan satu tempat tidur double atau dua tempat tidur single, TV LCD dengan saluran satelit, AC individu, lemari, kamar mandi, akses internet, dan balkon pribadi. Kamar seluas 20m² ini menghadap ke
+              pemandangan Gunung kukusan yang indah.
+            </div>
+            <div class="room-pricing-cont">
+              <div class="room-title">Start From</div>
+              <div class="room-price">
+                <div>Rp. 799.000</div>
+                <a class="btn-primary" href="reservasi.html">Reservasi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rc-right">
+          <img src="image/premier-vvip.jpg" alt="Premium-Room" class="room-img-cont" >
+          <div class="room-content-cont">
+            <div class="room-title">Suite Premium Room</div>
+            <div class="room-desc">
+              Kamar paling eksklusif dilengkapi dengan satu tempat tidur king dan ruang tamu, TV ayer LCD 55” dengan saluran satelit, lemari, AC individu, kamar mandi marmer dengan shower terpisah, akses internet, balkon pribadi, dan meja
+              makan yang indah. Kamar seluas 60m² ini menghadap ke pemandangan Gunung biru dan Gunung kukusan yang menakjubkan.
+            </div>
+            <div class="room-pricing-cont">
+              <div class="room-title">Start From</div>
+              <div class="room-price">
+                <div>Rp. 1.099.000</div>
+                <a class="btn-primary" href="reservasi.html">Reservasi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="room-container">
+        <div class="rc-left">
+          <img src="image/family-room.jpg" alt="Family-room" class="room-img-cont" >
+          <div class="room-content-cont">
+            <div class="room-title">Family room</div>
+            <div class="room-desc">
+              Didedikasikan untuk keluarga dengan anak-anak, kamar ini dilengkapi dengan satu tempat tidur king dan dua tempat tidur sofa, lemari, TV LCD dengan saluran satelit, AC individu, kamar mandi marmer dengan shower terpisah, akses
+              internet, dan balkon pribadi. Kamar seluas 52m² ini kamar menghadap pemandangan Gunung arjuna yang indah.
+            </div>
+            <div class="room-pricing-cont">
+              <div class="room-title">Start From</div>
+              <div class="room-price">
+                <div>Rp. 699.000</div>
+                <a class="btn-primary" href="reservasi.html">Reservasi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rc-right">
+          <img src="image/pool-view-room.jpg" alt="pool-view-room" class="room-img-cont" >
+          <div class="room-content-cont">
+            <div class="room-title">Pool Access Room</div>
+            <div class="room-desc">
+              Nikmati kamar yang lebih besar dilengkapi dengan satu tempat tidur ganda atau dua tempat tidur tunggal, TV LCD” dengan saluran satelit, lemari, AC individu, kamar mandi marmer dengan bak mandi, akses internet dan balkon
+              pribadi dengan akses kolam renang. Kamar seluas 52m² ini memiliki akses langsung eksklusif ke kolam renang. Dengan nuansa keindahan Gunung arjuna
+            </div>
+            <div class="room-pricing-cont">
+              <div class="room-title">Start From</div>
+              <div class="room-price">
+                <div>Rp. 899.000</div>
+                <a class="btn-primary" href="reservasi.html">Reservasi</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Room Section -->
+
+    <!-- Facilities Section -->
+    <div class="facilities-section" id="facilities">
+      <div class="facilities-header">Facilities</div>
+      <div class="facilities-container">
+        <div class="fc-cont-small fc-content">
+          <div class="fc-title">Swimming Pool</div>
+          <div class="fc-desc">Resort kami memiliki 2 kolam renang utama, kolam untuk dewasa dan anak-anak</div>
+        </div>
+        <div class="fc-cont-medium fc-image-1"></div>
+      </div>
+      <div class="facilities-container">
+        <div class="fc-cont-medium fc-image-2"></div>
+        <div class="fc-cont-small fc-content">
+          <div class="fc-title">Fitness Center</div>
+          <div class="fc-desc">Fitness Center kami dilengkapi dengan beberapa peralatan olahraga untuk para tamu.</div>
+        </div>
+      </div>
+      <div class="facilities-container">
+        <div class="fc-cont-big fc-image-3">
+          <div class="fc-cont-big-content fc-content">
+            <div class="fc-title">Spa & Beauty Center</div>
+            <div class="fc-desc">Resort kami juga memiliki Spa Room dan Salon Kecantikan. Pilihan perawatan yang terinspirasi dari perawatan tradisional Asia</div>
+          </div>
+        </div>
+      </div>
+      <div class="facilities-container">
+        <div class="fc-cont-small fc-content">
+          <div class="fc-title">The Restaurant</div>
+          <div class="fc-desc">Menyediakan berbagai masakan lokal dan internasional. Kami juga akan memanjakan Anda dengan hidangan otentik Kota Batu.</div>
+        </div>
+        <div class="fc-cont-medium fc-image-4"></div>
+      </div>
+      <div class="facilities-container">
+        <div class="fc-cont-medium fc-image-5"></div>
+        <div class="fc-cont-small fc-content">
+          <div class="fc-title">Sky Lounge</div>
+          <div class="fc-desc">Dengan pemandangan pegunungan dan kehijauan Kota Batu, Sky Lounge sangat cocok untuk menikmati secangkir kopi dan makanan ringan sambil menikmati lingkungan sekitar.</div>
+        </div>
+      </div>
+    </div>
+    <!-- end Facilities Section -->
+
+    <!-- Meeting Room Section -->
+    <div class="meeting-room-section" id="meeting-room">
+      <div class="meeting-room-header"><span>Exclusive </span>Meeting Room</div>
+      <div class="meeting-room-container mr-right mr-img-1">
+        <div class="mr-content">
+          <div class="mr-title">Kurupati meeting room</div>
+          <div class="mr-desc">
+            Ruang pertemuan nyaman seluas 42m² dapat menampung hingga 20 orang. Ruang pertemuan kurupati terletak di lantai dengan nyaman di sebelah pusat bisnis. Menampilkan teknologi konferensi terbaru termasuk sistem audio terintegrasi,
+            sistem mikrofon terpusat dan proyektor LCD.
+          </div>
+        </div>
+      </div>
+      <div class="meeting-room-container mr-left mr-img-2">
+        <div class="mr-content">
+          <div class="mr-title">Dananjaya meeting room</div>
+          <div class="mr-desc">
+            Ruang Pertemuan dananjaya kami yang elegan memiliki luas 90m² dengan kapasitas hingga 60 orang. Itu dapat diatur sebagai ruang kelas, atau teater. Tim Perjamuan profesional dapat mengatur berbagai tema keren dan berkesan untuk
+            disesuaikan dengan setiap kesempatan pertemuan. Menampilkan teknologi konferensi terbaru termasuk sistem audio terintegrasi, sistem mikrofon terpusat dan proyektor LCD
+          </div>
+        </div>
+      </div>
+      <div class="meeting-room-container mr-right mr-img-3">
+        <div class="mr-content">
+          <div class="mr-title">Swetawira meeting room</div>
+          <div class="mr-desc">
+            Ruang pertemuan elegan lainnya, Ruang Pertemuan swetawira memiliki luas 112m² dengan kapasitas hingga 100 orang. Itu dapat diatur sebagai ruang kelas, meja bundar atau teater. Tim Perjamuan profesional selecta dapat mengatur
+            berbagai tema dan berkesan untuk disesuaikan dengan setiap kesempatan pertemuan. Menampilkan teknologi konferensi terbaru termasuk sistem audio terintegrasi, sistem mikrofon terpusat dan proyektor LCD.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Meeting Room Section -->
+
+    <!-- Footer Section -->
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <div class="footer-contact footer-sizing">
+            <div class="footer-header">Contact</div>
+            <div class="footer-title">Djangga Selecta Resort</div>
+            <div class="footer-desc">
+              Jl. Pangeran Diponegoro No.184, Tulungrejo <br >
+              Kec. Bumiaji, Kota Batu, Jawa Timur 65336
+            </div>
+            <div class="contact">
+              <div class="contact-tel">+62 822 3244 9038</div>
+              <div class="contact-mail">contact@djanggaselectaresort.com</div>
+            </div>
+          </div>
+          <div class="footer-links footer-sizing">
+            <div class="footer-header">Menu</div>
+            <ul>
+              <li class="navbar-item"><a href="index.html">Home</a></li>
+              <li class="navbar-item"><a href="#about-us">About</a></li>
+              <li class="navbar-item"><a href="#room-suites">Room and Suites</a></li>
+              <li class="navbar-item"><a href="#facilities">Facilities</a></li>
+              <li class="navbar-item"><a href="#meeting-room">Meeting Room</a></li>
+            </ul>
+          </div>
+          <div class="footer-socialmed footer-sizing">
+            <div class="footer-header">Follow Us</div>
+            <div class="socialmed-cont">
+              <img class="socialmed-logo" src="image/instagram-logo.png" alt="instragram" >
+              <div class="footer-desc">@DjanggaSelecta_Resort</div>
+            </div>
+            <div class="socialmed-cont">
+              <img class="socialmed-logo" src="image/facebook-logo.png" alt="instragram" >
+              <div class="footer-desc">@DjanggaSelecta_Resort</div>
+            </div>
+            <div class="socialmed-cont">
+              <img class="socialmed-logo" src="image/youtube-logo.png" alt="instragram" >
+              <div class="footer-desc">@DjanggaSelecta_Resort</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-credit">
+        <div class="credit-container">
+          <div class="credit">Copyright Djangga Selecta Resort 2023</div>
+          <div class="credit">
+            Dibuat Oleh Kelompok A-03 <span><a href="about-us.html">About us</a><a href="evaluasi.html">Evaluasi</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End footer Section -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
